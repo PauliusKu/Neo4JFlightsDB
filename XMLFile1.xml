@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<r:Query xmlns:r="http://schemas.microsoft.com/2015/05/flights">
+  <r:QueryHeader>
+    <QueryName>GetFlights</QueryName>
+    <System country="LT"></System>
+    <QueryCriteria>
+      <IsReturnFlight>yes</IsReturnFlight>
+      <FromPoint>Vilnius</FromPoint>
+      <ToPoint>CDG</ToPoint>
+      <FromDate>2019-10-05</FromDate>
+      <ToDate>2019-10-05</ToDate>
+      <NumOfPass>1</NumOfPass>
+      <OnlyDirect>no</OnlyDirect>
+    </QueryCriteria>
+  </r:QueryHeader>
+  <r:QueryBody>
+  </r:QueryBody>
+</r:Query>
